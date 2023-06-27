@@ -1,16 +1,17 @@
 import React from "react";
 import { Box, IconButton, useBreakpointValue } from "@chakra-ui/react";
-// Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
-// And react-slick as our Carousel Lib
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 import Image1 from "../../../assets/images/png1.png";
 import Image2 from "../../../assets/images/png2.png";
 import Image3 from "../../../assets/images/png3.png";
 import Image4 from "../../../assets/images/png5.png";
 
-// Settings for the slider
-const settings = {
+interface CustomSliderSettings extends Settings {
+  style?: React.CSSProperties;
+}
+
+const settings: CustomSliderSettings = {
   dots: true,
   arrows: false,
   fade: true,
@@ -23,26 +24,13 @@ const settings = {
 };
 
 export default function Carousel() {
-  // As we have used custom buttons, we need a reference variable to
-  // change the state
   const [slider, setSlider] = React.useState<Slider | null>(null);
-
-  // These are the breakpoints which changes the position of the
-  // buttons as the screen size changes
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "10px" });
-
-  // These are the images used in the slide
   const cards = [Image1, Image2, Image3, Image4];
 
   return (
-    <Box
-      position={"relative"}
-      height={"600px"}
-      width={"full"}
-      overflow={"hidden"}
-    >
-      {/* CSS files for react-slick */}
+    <Box position="relative" height="600px" width="full" overflow="hidden">
       <link
         rel="stylesheet"
         type="text/css"
@@ -54,7 +42,6 @@ export default function Carousel() {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
         colorScheme="messenger"
@@ -62,13 +49,12 @@ export default function Carousel() {
         position="absolute"
         left={side}
         top={top}
-        transform={"translate(0%, -50%)"}
+        transform="translate(0%, -50%)"
         zIndex={2}
         onClick={() => slider?.slickPrev()}
       >
         <BiLeftArrowAlt />
       </IconButton>
-      {/* Right Icon */}
       <IconButton
         aria-label="right-arrow"
         colorScheme="messenger"
@@ -76,29 +62,26 @@ export default function Carousel() {
         position="absolute"
         right={side}
         top={top}
-        transform={"translate(0%, -50%)"}
+        transform="translate(0%, -50%)"
         zIndex={2}
         onClick={() => slider?.slickNext()}
       >
         <BiRightArrowAlt />
       </IconButton>
-      {/* Slider */}
-      <Slider
-        style={{ overflow: "hidden" }}
-        {...settings}
-        ref={(slider: any) => setSlider(slider)}
-      >
-        {cards.map((url, index) => (
-          <Box
-            key={index}
-            height={"6xl"}
-            position="relative"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat"
-            backgroundSize="cover"
-            backgroundImage={`url(${url})`}
-          />
-        ))}
+      <Slider {...settings} ref={(slider: Slider | null) => setSlider(slider)}>
+        <div style={{ overflow: "hidden" }}>
+          {cards.map((url, index) => (
+            <Box
+              key={index}
+              height="6xl"
+              position="relative"
+              backgroundPosition="center"
+              backgroundRepeat="no-repeat"
+              backgroundSize="cover"
+              backgroundImage={`url(${url})`}
+            />
+          ))}
+        </div>
       </Slider>
     </Box>
   );
