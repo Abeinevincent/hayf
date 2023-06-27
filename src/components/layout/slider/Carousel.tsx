@@ -21,6 +21,9 @@ const settings: CustomSliderSettings = {
   autoplaySpeed: 5000,
   slidesToShow: 1,
   slidesToScroll: 1,
+  style: {
+    overflow: "hidden",
+  },
 };
 
 export default function Carousel() {
@@ -69,19 +72,17 @@ export default function Carousel() {
         <BiRightArrowAlt />
       </IconButton>
       <Slider {...settings} ref={(slider: Slider | null) => setSlider(slider)}>
-        <div style={{ overflow: "hidden" }}>
-          {cards.map((url, index) => (
-            <Box
-              key={index}
-              height="6xl"
-              position="relative"
-              backgroundPosition="center"
-              backgroundRepeat="no-repeat"
-              backgroundSize="cover"
-              backgroundImage={`url(${url})`}
-            />
-          ))}
-        </div>
+        {cards.map((url, index) => (
+          <Box
+            key={index}
+            height="6xl"
+            position="relative"
+            backgroundPosition="center"
+            backgroundRepeat="no-repeat"
+            backgroundSize="cover"
+            backgroundImage={`url(${url})`}
+          />
+        ))}
       </Slider>
     </Box>
   );
