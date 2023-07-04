@@ -76,14 +76,14 @@ export default function Login() {
       setIsLoading(false);
       setUsername("");
       setPassword("");
-      toast.success("Login successful, redirecting...");
-      setTimeout(() => {
-        window.location.href = `${
-          import.meta.env.VITE_REACT_APP_SYSTEM_HOME_URL
-        }`;
+      // toast.success("Login successful, redirecting...");
+      // setTimeout(() => {
+      //   window.location.href = `${
+      //     import.meta.env.VITE_REACT_APP_SYSTEM_HOME_URL
+      //   }`;
 
-        // window.location.reload();
-      }, 3000);
+      //   // window.location.reload();
+      // }, 3000);
     } catch (err) {
       console.log(err);
       setIsLoading(false);
