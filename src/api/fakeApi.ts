@@ -136,7 +136,7 @@ export const tutorialsData = [
   },
   {
     title: "School Anniversary",
-    datecreated: "25h March, 2023",
+    datecreated: "25th March, 2023",
     description: `We are thrilled to announce that on March 25th, 2023, Rwebiita Preparatory School 
     will be commemorating a remarkable milestone - a decade of delivering exceptional 
     education and shaping young minds. It is a momentous occasion that calls for 

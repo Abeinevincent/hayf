@@ -122,10 +122,11 @@ const AboutUs = () => {
         </Text>
         <Box mb={3}>
           <Text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-            quidem laboriosam totam a sint. Esse eveniet, perferendis inventore
-            repellat voluptate nemo minima iure ducimus officia totam! Facilis
-            dolores dolorum officiis!
+            To provide naturing environment offering quality education supported
+            by a strong foundation, of Christian values in partnership with
+            parents, equiping students to become leaders to serve God, to serve
+            their families, and to positively impact their communities and the
+            world.
           </Text>
         </Box>
       </Box>
@@ -135,12 +136,16 @@ const AboutUs = () => {
           Our Vision
         </Text>
         <Box mb={3}>
-          <Text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-            quidem laboriosam totam a sint. Esse eveniet, perferendis inventore
-            repellat voluptate nemo minima iure ducimus officia totam! Facilis
-            dolores dolorum officiis!
-          </Text>
+          <Text>Our pupils today, exemplary citizens of tomorrow!</Text>
+        </Box>
+      </Box>
+
+      <Box w={{ base: "100%", md: "80%", lg: "60%" }}>
+        <Text color={PrimaryColor} fontWeight={"bold"} fontSize={30} mb={5}>
+          Our Motto
+        </Text>
+        <Box mb={3}>
+          <Text>We care, we share, we learn together</Text>
         </Box>
       </Box>
 
@@ -150,10 +155,8 @@ const AboutUs = () => {
         </Text>
         <Box mb={3}>
           <Text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-            quidem laboriosam totam a sint. Esse eveniet, perferendis inventore
-            repellat voluptate nemo minima iure ducimus officia totam! Facilis
-            dolores dolorum officiis!
+            Intergrity, respect, resilience, perseverence, optimisim, commitment
+            to excellence and willingness to lead and serve
           </Text>
         </Box>
       </Box>
