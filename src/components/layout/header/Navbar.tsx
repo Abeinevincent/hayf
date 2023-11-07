@@ -61,7 +61,7 @@ const NavBar = () => {
         w="100vw"
         shadow={"md"}
         px={12}
-        py={3}
+        py={6}
         zIndex={99999}
         position={{ base: "static", md: "fixed" }}
         top={0}

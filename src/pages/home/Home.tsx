@@ -13,6 +13,7 @@ import Carousel from "../../components/layout/slider/Carousel";
 import HomeComponent from "../../components/uicomponents/homecomponent/HomeComponent";
 import NewsAndUpdatesComp from "../../components/uicomponents/homecomponent/NewsAndUpdates";
 import { PrimaryBasicColor, PrimaryColor } from "../../theme/GlobalStyles";
+import { TeamMember } from "../../components/uicomponents/team/TeamMember";
 
 export const Home = () => {
   const isLargeDevice = useBreakpointValue({ base: false, md: true, lg: true });
@@ -39,40 +40,34 @@ export const Home = () => {
               fontSize={30}
               mb={5}
             >
-              Welcome to Rwebita Preparatory School
+              Welcome to Hope Action for Youth Foundation
             </Text>
             <Box mb={3}>
               <Text>
-                Welcome to Rwebiita Preparatory School, a vibrant and nurturing
-                environment where learning comes alive! At Rwebiita Preparatory
-                School, we are dedicated to providing a quality education that
-                lays a strong foundation for your child's academic and personal
-                growth.
+                Welcome to Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Ratione, suscipit, eligendi asperiores eum et velit
+                officiis quos dolorum aliquam a deserunt modi reiciendis
+                debitis. Esse error obcaecati eos a officiis.
               </Text>
               <Text>
-                Our primary school is a place where curiosity is fostered,
-                friendships are formed, and young minds are empowered. We
-                believe in creating a supportive and inclusive community where
-                every student feels valued and encouraged to reach their full
-                potential.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                accusantium obcaecati doloremque, unde necessitatibus
+                voluptatibus autem ullam ex, ab impedit odit voluptas? Dolorem,
+                quasi laborum. Nesciunt unde repellendus eius sequi?
               </Text>
             </Box>
             <Box>
               <Text>
-                With a team of dedicated and passionate educators, we strive to
-                create a joyful learning experience that sparks curiosity,
-                ignites creativity, and develops critical thinking skills. Our
-                holistic approach to education encompasses not only academic
-                excellence but also the development of character, resilience,
-                and a love for lifelong learning.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias quia, maxime architecto vel dolore sit quasi laborum,
+                blanditiis velit quas libero enim corrupti nisi minima optio
+                harum sapiente aliquam vitae.
               </Text>
               <Text>
-                At Rwebiita Preparatory School, we understand the importance of
-                strong partnerships between school, parents, and the wider
-                community. We believe that education is a collaborative effort,
-                and we encourage open communication and involvement from parents
-                to create a supportive and nurturing learning environment for
-                our students.
+                At Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque nihil repellendus facere corporis. Aliquid libero sed ex
+                inventore? Voluptates quaerat sit, alias quasi a consectetur
+                odit! Earum cupiditate nesciunt explicabo!
               </Text>
             </Box>
             <Flex
@@ -91,7 +86,7 @@ export const Home = () => {
                   50+
                 </Heading>
                 <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Teaching & Non Teaching Staff
+                  Community Members
                 </Text>
               </Box>
               <Box>
@@ -103,7 +98,7 @@ export const Home = () => {
                   500+
                 </Heading>
                 <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Students
+                  Employees
                 </Text>
               </Box>
               <Box>
@@ -115,7 +110,7 @@ export const Home = () => {
                   200+
                 </Heading>
                 <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Top Notch Learning Resources
+                  Youth Groups
                 </Text>
               </Box>
               <Box>
@@ -133,15 +128,21 @@ export const Home = () => {
             </Flex>
           </Box>
         </Flex>
+
+        {/* FOCUS AREAS  */}
+        <Text textAlign={"center"} fontWeight={"bold"} fontSize={30} mb={5}>
+          Key Result Areas
+        </Text>
         <Box>
           {HomeInfo.map((item: any) => (
             <HomeComponent item={item} />
           ))}
         </Box>
-        {/* NEWS AND UPDATES-- */}
+
+        {/* Our Activities */}
         <Box>
           <Heading textAlign={"center"} overflow="hidden">
-            News & Updates
+            Our Activities
           </Heading>
           <Box
             margin={"auto"}
@@ -165,6 +166,23 @@ export const Home = () => {
             ))}
           </Box>
         </Box>
+
+        {/* TEAM */}
+        <Text textAlign={"center"} fontWeight={"bold"} fontSize={30} mb={5}>
+          Our Team
+        </Text>
+        <Flex
+          flexWrap={"wrap"}
+          flexDir={"row-reverse"}
+          alignContent={"center"}
+          justify={"center"}
+          width={"100%"}
+          gap={10}
+        >
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((member) => (
+            <TeamMember key={member} />
+          ))}
+        </Flex>
       </Box>
     </Flex>
   );

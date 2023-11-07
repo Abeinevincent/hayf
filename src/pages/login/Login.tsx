@@ -1,6 +1,6 @@
 // import { myAPIClient } from "./axiosInstance";
 import LoginImage from "../../assets/images/png1.png";
-import LogoImage from "../../assets/images/logo.png";
+import LogoImage from "../../assets/images/logob.jpeg";
 import {
   Button,
   Checkbox,
@@ -76,14 +76,6 @@ export default function Login() {
       setIsLoading(false);
       setUsername("");
       setPassword("");
-      // toast.success("Login successful, redirecting...");
-      // setTimeout(() => {
-      //   window.location.href = `${
-      //     import.meta.env.VITE_REACT_APP_SYSTEM_HOME_URL
-      //   }`;
-
-      //   // window.location.reload();
-      // }, 3000);
     } catch (err) {
       console.log(err);
       setIsLoading(false);
@@ -133,10 +125,10 @@ export default function Login() {
               >
                 Sign in to Your Account
               </Heading>
-              <span style={{ fontSize: 11 }}>
+              {/* <span style={{ fontSize: 11 }}>
                 ***teacher, memebr or student(contact admin for login
                 details)***
-              </span>
+              </span> */}
 
               <FormControl isRequired id="email">
                 <FormLabel>Username</FormLabel>
@@ -232,7 +224,9 @@ export default function Login() {
           alt={"Login Image"}
           objectFit={"cover"}
           // src={LoginImage}
-          src={LoginImage}
+          src={
+            "https://img.freepik.com/free-photo/group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-education-theme_627829-5991.jpg?size=626&ext=jpg&ga=GA1.1.1136021855.1696006158&semt=ais"
+          }
         />
       </Flex>
     </Stack>

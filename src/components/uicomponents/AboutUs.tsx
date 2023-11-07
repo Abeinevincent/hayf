@@ -21,40 +21,35 @@ const AboutUs = () => {
     >
       <Box w={{ base: "100%", md: "80%", lg: "60%" }}>
         <Text color={PrimaryColor} fontWeight={"bold"} fontSize={30} mb={5}>
-          Welcome to Rwebita Preparatory School
+          Welcome to HAYF
         </Text>
         <Box>
           <Box mb={3}>
             <Text>
-              Welcome to Rwebiita Preparatory School, a vibrant and nurturing
-              environment where learning comes alive! At Rwebiita Preparatory
-              School, we are dedicated to providing a quality education that
-              lays a strong foundation for your child's academic and personal
-              growth.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
             <Text>
-              Our primary school is a place where curiosity is fostered,
-              friendships are formed, and young minds are empowered. We believe
-              in creating a supportive and inclusive community where every
-              student feels valued and encouraged to reach their full potential.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
           </Box>
           <Box>
             <Text>
-              With a team of dedicated and passionate educators, we strive to
-              create a joyful learning experience that sparks curiosity, ignites
-              creativity, and develops critical thinking skills. Our holistic
-              approach to education encompasses not only academic excellence but
-              also the development of character, resilience, and a love for
-              lifelong learning.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
             <Text>
-              At Rwebiita Preparatory School, we understand the importance of
-              strong partnerships between school, parents, and the wider
-              community. We believe that education is a collaborative effort,
-              and we encourage open communication and involvement from parents
-              to create a supportive and nurturing learning environment for our
-              students.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
           </Box>
           <Flex

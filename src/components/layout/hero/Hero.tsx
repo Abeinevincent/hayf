@@ -41,7 +41,7 @@ const Hero = ({ pagename }: HeroProps) => {
               textAlign: "center",
             }}
           >
-            Rwebiita PS
+            HAYF
             <span style={{ marginLeft: 20 }}>/</span>
           </Text>
           <Heading

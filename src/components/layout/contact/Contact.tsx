@@ -1,3 +1,5 @@
+import "./contact.css";
+
 import {
   Container,
   Flex,
@@ -48,8 +50,10 @@ export default function contact() {
 
   return (
     <Box
-      boxShadow={"lg"}
+      // boxShadow={"md"}
+      // className="contact_box_wrapper"
       color="white"
+      border={"1px solid #ddd"}
       borderRadius="lg"
       m={{ sm: 4, md: 16, lg: 10 }}
       p={{ sm: 5, md: 5, lg: 16 }}
@@ -140,10 +144,6 @@ export default function contact() {
                   size="lg"
                   isRound={true}
                   bg="orange"
-                  onClick={() =>
-                    (window.location.href =
-                      "https://www.tiktok.com/@rwebiita_preparatory_sch")
-                  }
                   _hover={{ bg: "#0D74FF" }}
                   icon={<FaTiktok size="28px" />}
                 />

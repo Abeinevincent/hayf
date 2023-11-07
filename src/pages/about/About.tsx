@@ -5,18 +5,18 @@ import AboutUs from "../../components/uicomponents/AboutUs";
 
 const About = () => {
   return (
-    <Box>
+    <>
       <Hero pagename="About Us" />
       <Box>
         <Heading textAlign={"center"} my={4} overflow="hidden">
           About Us
         </Heading>
-        <Text textAlign={"center"}>About Rwebiita PS</Text>
+        <Text textAlign={"center"}>About HAYF</Text>
       </Box>
       <Box>
         <AboutUs />
       </Box>
-    </Box>
+    </>
   );
 };
 

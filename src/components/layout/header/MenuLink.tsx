@@ -50,15 +50,6 @@ export const MenuLinks = ({
           News & Updates
         </MenuItem>
 
-        <MenuItem
-          setIsOpen={setIsOpen}
-          bdr={"bdr"}
-          active={active}
-          to="/academia"
-        >
-          Academia
-        </MenuItem>
-
         <MenuItem setIsOpen={setIsOpen} bdr={"bdr"} active={active} to="/login">
           Login
         </MenuItem>

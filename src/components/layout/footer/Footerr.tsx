@@ -81,22 +81,19 @@ export default function LargeWithAppLinksAndSocial() {
             <Box>
               <ListHeader>About Us</ListHeader>
             </Box>
+            <Text>HAYF is where Lorem ipsum</Text>
+
             <Text>
-              Rwebiita Preparatory School is where every child's potential is
-              nurtured and celebrated!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
             <Text>
-              We understand that the primary years are a crucial foundation for
-              a child's education. That's why we strive to provide a
-              well-rounded curriculum that combines academic excellence with
-              character development, social-emotional learning, and
-              extracurricular activities.
-            </Text>
-            <Text>
-              From vibrant classrooms to well-equipped facilities, we provide a
-              safe and stimulating environment where children can explore,
-              discover, and grow. We prioritize the well-being and happiness of
-              our students, nurturing their self-confidence and resilience.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quia, maxime architecto vel dolore sit quasi laborum, blanditiis
+              velit quas libero enim corrupti nisi minima optio harum sapiente
+              aliquam vitae.
             </Text>
           </Stack>
 
@@ -142,7 +139,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaFax />
               </SocialButton>
               <Link href={"#"}>
-                <Box>+256 772 620852</Box>
+                <Box>+256 700 391 338</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
@@ -150,7 +147,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaWhatsapp />
               </SocialButton>
               <Link href={"#"}>
-                <Box> +256 772 620852</Box>
+                <Box> +256 770 597 348</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
@@ -158,7 +155,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaLocationArrow />
               </SocialButton>
               <Link href={"#"}>
-                <Box>P.O Box 101, Kabwohe, Uganda.</Box>
+                <Box>P.O Box 420740, Mbarara, Uganda.</Box>
               </Link>
             </Flex>
           </Stack>
@@ -192,7 +189,7 @@ export default function LargeWithAppLinksAndSocial() {
           align={{ md: "center" }}
         >
           <Text textAlign={"center"}>
-            © {new Date().getFullYear()} Rwebiita PS. All rights reserved
+            © {new Date().getFullYear()} HAYF. All rights reserved
           </Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton
@@ -216,7 +213,7 @@ export default function LargeWithAppLinksAndSocial() {
             <SocialButton label={"Instagram"} href={"#"}>
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label={"Instagram"} href={"https://www.tiktok.com/@rwebiita_preparatory_sch"}>
+            <SocialButton label={"Instagram"} href={"#"}>
               <FaTiktok />
             </SocialButton>
           </Stack>

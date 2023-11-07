@@ -5,21 +5,18 @@ import Course from "../../components/layout/course/Course";
 import Hero from "../../components/layout/hero/Hero";
 
 const Gallery = () => {
-
-  const pagename = "Gallery"
+  const pagename = "Gallery";
 
   return (
     <Box>
-      <Hero pagename={pagename}/>
+      <Hero pagename={pagename} />
       <Box>
         {/* COURSES HERE-- */}
         <Box>
-          <Heading textAlign={"center"} overflow='hidden' my={4}>
+          <Heading textAlign={"center"} overflow="hidden" my={4}>
             Gallery
           </Heading>
-          <Text textAlign={"center"}>
-            Take a look at Rwebiita Preparatory School
-          </Text>
+          <Text textAlign={"center"}>Take a look at HAYF</Text>
           <Box
             margin={"auto"}
             p={{ base: 1, md: 8, lg: 20 }}
