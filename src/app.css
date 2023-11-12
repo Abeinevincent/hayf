@@ -1,0 +1,9 @@
+/* gradient text for modern browsers */
+@supports (background-clip: text) {
+    .gradient-text {
+      background-image: linear-gradient(60deg, #e21143, #ffb03a);
+      background-clip: text;
+      color: white;
+    }
+  }
+  
