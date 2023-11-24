@@ -7,20 +7,73 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { HomeInfo, tutorialsData } from "../../api/fakeApi";
-import Course from "../../components/layout/course/Course";
-import Hero from "../../components/layout/hero/Hero";
 import Carousel from "../../components/layout/slider/Carousel";
 import HomeComponent from "../../components/uicomponents/homecomponent/HomeComponent";
 import NewsAndUpdatesComp from "../../components/uicomponents/homecomponent/NewsAndUpdates";
-import { PrimaryBasicColor, PrimaryColor } from "../../theme/GlobalStyles";
+import { PrimaryColor } from "../../theme/GlobalStyles";
 import { TeamMember } from "../../components/uicomponents/team/TeamMember";
+import Brian from "../../assets/images/hayf/brian.jpg";
+import Alice from "../../assets/images/hayf/alice.jpg";
+import Ben from "../../assets/images/hayf/ben.jpg";
+import Ada from "../../assets/images/hayf/ada.jpg";
+import Ceila from "../../assets/images/hayf/ceila.jpg";
+import Colleb from "../../assets/images/hayf/colleb.jpg";
+import Edson from "../../assets/images/hayf/edson.jpg";
+import Faith from "../../assets/images/hayf/faith.jpg";
+
+export const team = [
+  {
+    id: 1,
+    name: "Ruhangarinda Brian",
+    pp_url: Brian,
+  },
+
+  {
+    id: 2,
+    name: "Nakigudde Alice",
+    pp_url: Alice,
+  },
+
+  {
+    id: 3,
+    name: "Tumuhaire Faith",
+    pp_url: Faith,
+  },
+
+  {
+    id: 4,
+    name: "Kusasira Colleb",
+    pp_url: Colleb,
+  },
+
+  {
+    id: 5,
+    name: "Byamugisha Edson",
+    pp_url: Edson,
+  },
+
+  {
+    id: 6,
+    name: "Tumwegamire Adah",
+    pp_url: Ada,
+  },
+
+  {
+    id: 7,
+    name: " Atuheire Ben",
+    pp_url: Ben,
+  },
+
+  {
+    id: 8,
+    name: "Ampaire Celia",
+    pp_url: Ceila,
+  },
+];
 
 export const Home = () => {
-  const isLargeDevice = useBreakpointValue({ base: false, md: true, lg: true });
-
   return (
     <Flex bg="#f8f8f8" flexDirection={"column"}>
-      {/* <Hero /> */}
       <Box>
         <Carousel />
       </Box>
@@ -178,8 +231,8 @@ export const Home = () => {
           width={"100%"}
           gap={10}
         >
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((member) => (
-            <TeamMember key={member} />
+          {team.map((member) => (
+            <TeamMember key={member.id} member={member} />
           ))}
         </Flex>
       </Box>

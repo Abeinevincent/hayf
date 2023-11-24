@@ -2,14 +2,11 @@ import React from "react";
 import { Box, IconButton, useBreakpointValue } from "@chakra-ui/react";
 import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import Slider, { Settings } from "react-slick";
-import Image1 from "../../../assets/images/IMG1.jpeg";
-// import Image2 from "../../../assets/images/IMG2.jpeg";
-// import Image3 from "../../../assets/images/IMG3.jpeg";
-// import Image4 from "../../../assets/images/IMG4.jpeg";
-import Image2 from "../../../assets/images/IMG5.jpeg";
-import Image3 from "../../../assets/images/IMG6.jpeg";
-import Image4 from "../../../assets/images/IMG7.jpeg";
-// import Image4 from "../../../assets/images/IMG4.jpeg";
+import GPik1 from "../../../assets/images/hayf/gpk1.jpg";
+import GPik2 from "../../../assets/images/hayf/gpk2.jpg";
+import Colleb from "../../../assets/images/hayf/colleb.jpg";
+import Ada from "../../../assets/images/hayf/ada.jpg";
+import Edson from "../../../assets/images/hayf/edson.jpg";
 
 interface CustomSliderSettings extends Settings {
   style?: React.CSSProperties;
@@ -34,12 +31,7 @@ export default function Carousel() {
   const [slider, setSlider] = React.useState<Slider | null>(null);
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "10px" });
-  const cards = [
-    Image1,
-    "https://img.freepik.com/free-photo/group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-education-theme_627829-6007.jpg?w=996&t=st=1699364055~exp=1699364655~hmac=0badf039f7ae0848d45cfafb390dd8c535e81fc55d29fcb3bfbce2bdcde4085c",
-    "https://img.freepik.com/free-photo/students-studying-together-medium-shot_23-2148913227.jpg?w=996&t=st=1699364135~exp=1699364735~hmac=cbf6ee10e105c0b490d217cc1c140bdfcdeee837a30a47559bb228ae47f96b97",
-    "https://img.freepik.com/premium-photo/transaction-market-place-while-customer-wears-face-mask-prevent-himself-outbreak-society_216356-1206.jpg?w=996",
-  ];
+  const cards = [GPik1, GPik2, Colleb, Ada, Edson];
 
   return (
     <Box position="relative" height="600px" width="full" overflow="hidden">

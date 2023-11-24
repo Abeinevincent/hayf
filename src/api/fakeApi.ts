@@ -8,56 +8,48 @@ import Gallery3 from "../assets/images/png3.png";
 import Gallery4 from "../assets/images/png4.png";
 import Gallery5 from "../assets/images/png5.png";
 import Gallery6 from "../assets/images/png6.png";
+import Brian from "../assets/images/hayf/brian.jpg";
+import Alice from "../assets/images/hayf/alice.jpg";
+import Ben from "../assets/images/hayf/ben.jpg";
+import Ada from "../assets/images/hayf/ada.jpg";
+import Ceila from "../assets/images/hayf/ceila.jpg";
+import Colleb from "../assets/images/hayf/colleb.jpg";
+import Edson from "../assets/images/hayf/edson.jpg";
+import Faith from "../assets/images/hayf/faith.jpg";
+import Gpk1 from "../assets/images/hayf/gpk1.jpg";
+import Gpk2 from "../assets/images/hayf/gpk2.jpg";
 
 export const galleryData = [
   {
-    image:
-      "https://img.freepik.com/free-photo/africa-humanitarian-aid-doctor-taking-care-patient_23-2149117842.jpg?w=996&t=st=1699365042~exp=1699365642~hmac=15010b88324aed988e9f3488f99b85c2174d3e8990af987f7c8c586e1b3479ea",
+    image: Ada,
   },
   {
-    image:
-      "https://img.freepik.com/free-photo/ideas-innovation-creativity-knowledge-inspiration-vision-concept_53876-21166.jpg?w=740&t=st=1699365466~exp=1699366066~hmac=f8c6dd2af453acc3723a5d054fb27141ac8d5d0a43954839d31b2b94f24bb5e3",
+    image: Ben,
   },
   {
-    image:
-      "https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=996&t=st=1699366380~exp=1699366980~hmac=c9f30f4d37c4e1f9ef9c86a3753fa9d20279c094e49e0ffa5d024cc58ebe71f8",
+    image: Alice,
   },
   {
-    image:
-      "https://img.freepik.com/premium-photo/young-serious-black-woman-casualwear-sewing-new-fashionable-attire_249974-12709.jpg?w=996",
+    image: Gpk1,
   },
   {
-    image:
-      "https://pbs.twimg.com/media/Fwo6ROzXgAALqO2?format=jpg&name=4096x4096",
+    image: Gpk2,
+  },
+  {
+    image: Edson,
+  },
+  {
+    image: Colleb,
   },
 
   {
-    image:
-      "https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=996&t=st=1699366380~exp=1699366980~hmac=c9f30f4d37c4e1f9ef9c86a3753fa9d20279c094e49e0ffa5d024cc58ebe71f8",
+    image: Faith,
   },
   {
-    image:
-      "https://img.freepik.com/premium-photo/young-serious-black-woman-casualwear-sewing-new-fashionable-attire_249974-12709.jpg?w=996",
+    image: Brian,
   },
   {
-    image:
-      "https://pbs.twimg.com/media/Fwo6ROzXgAALqO2?format=jpg&name=4096x4096",
-  },
-  {
-    image:
-      "https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=996&t=st=1699366380~exp=1699366980~hmac=c9f30f4d37c4e1f9ef9c86a3753fa9d20279c094e49e0ffa5d024cc58ebe71f8",
-  },
-  {
-    image:
-      "https://img.freepik.com/premium-photo/young-serious-black-woman-casualwear-sewing-new-fashionable-attire_249974-12709.jpg?w=996",
-  },
-  {
-    image:
-      "https://pbs.twimg.com/media/Fwo6ROzXgAALqO2?format=jpg&name=4096x4096",
-  },
-  {
-    image:
-      "https://img.freepik.com/premium-photo/young-serious-black-woman-casualwear-sewing-new-fashionable-attire_249974-12709.jpg?w=996",
+    image: Ceila,
   },
 ];
 
