@@ -31,7 +31,7 @@ export default function Carousel() {
   const [slider, setSlider] = React.useState<Slider | null>(null);
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "10px" });
-  const cards = [GPik1, GPik2, Colleb, Ada, Edson];
+  const cards = [GPik1, GPik2];
 
   return (
     <Box position="relative" height="600px" width="full" overflow="hidden">

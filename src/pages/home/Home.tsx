@@ -1,11 +1,4 @@
-import {
-  Flex,
-  Box,
-  Heading,
-  Code,
-  Text,
-  useBreakpointValue,
-} from "@chakra-ui/react";
+import { Flex, Box, Heading, Text } from "@chakra-ui/react";
 import { HomeInfo, tutorialsData } from "../../api/fakeApi";
 import Carousel from "../../components/layout/slider/Carousel";
 import HomeComponent from "../../components/uicomponents/homecomponent/HomeComponent";
@@ -26,48 +19,56 @@ export const team = [
     id: 1,
     name: "Ruhangarinda Brian",
     pp_url: Brian,
+    role: "Software Developer",
   },
 
   {
     id: 2,
     name: "Nakigudde Alice",
     pp_url: Alice,
+    role: "Member",
   },
 
   {
     id: 3,
     name: "Tumuhaire Faith",
     pp_url: Faith,
+    role: "Finance Manager",
   },
 
   {
     id: 4,
     name: "Kusasira Colleb",
     pp_url: Colleb,
+    role: "Chairman",
   },
 
   {
     id: 5,
     name: "Byamugisha Edson",
     pp_url: Edson,
+    role: "Member",
   },
 
   {
     id: 6,
     name: "Tumwegamire Adah",
     pp_url: Ada,
+    role: "Member",
   },
 
   {
     id: 7,
     name: " Atuheire Ben",
     pp_url: Ben,
+    role: "Member",
   },
 
   {
     id: 8,
     name: "Ampaire Celia",
     pp_url: Ceila,
+    role: "Member",
   },
 ];
 
