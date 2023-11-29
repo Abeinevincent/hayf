@@ -13,13 +13,15 @@ import Ceila from "../../assets/images/hayf/ceila.jpg";
 import Colleb from "../../assets/images/hayf/colleb.jpg";
 import Edson from "../../assets/images/hayf/edson.jpg";
 import Faith from "../../assets/images/hayf/faith.jpg";
+import Osbert from "../../assets/images/hayf/osbert.jpg";
+import Venjarest from "../../assets/images/hayf/venjarest.jpg";
 
 export const team = [
   {
     id: 1,
     name: "Ruhangarinda Brian",
     pp_url: Brian,
-    role: "Software Developer",
+    role: "IT Specialist",
   },
 
   {
@@ -40,14 +42,14 @@ export const team = [
     id: 4,
     name: "Kusasira Colleb",
     pp_url: Colleb,
-    role: "Chairman",
+    role: "Member",
   },
 
   {
     id: 5,
     name: "Byamugisha Edson",
     pp_url: Edson,
-    role: "Member",
+    role: "Chair Person",
   },
 
   {
@@ -69,6 +71,20 @@ export const team = [
     name: "Ampaire Celia",
     pp_url: Ceila,
     role: "Member",
+  },
+
+  {
+    id: 9,
+    name: "Akandwanaho Osbert",
+    pp_url: Osbert,
+    role: "General Secretary",
+  },
+
+  {
+    id: 9,
+    name: "Bwembale Venjarest",
+    pp_url: Venjarest,
+    role: "General Secretary",
   },
 ];
 
