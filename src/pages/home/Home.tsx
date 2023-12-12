@@ -18,12 +18,11 @@ import Venjarest from "../../assets/images/hayf/venjarest.jpg";
 
 export const team = [
   {
-    id: 1,
-    name: "Ruhangarinda Brian",
-    pp_url: Brian,
-    role: "IT Specialist",
+    id: 6,
+    name: "Tumwegamire Adah",
+    pp_url: Ada,
+    role: "Member",
   },
-
   {
     id: 2,
     name: "Nakigudde Alice",
@@ -39,10 +38,10 @@ export const team = [
   },
 
   {
-    id: 4,
-    name: "Kusasira Colleb",
-    pp_url: Colleb,
-    role: "Member",
+    id: 9,
+    name: "Akandwanaho Osbert",
+    pp_url: Osbert,
+    role: "General Secretary",
   },
 
   {
@@ -53,10 +52,10 @@ export const team = [
   },
 
   {
-    id: 6,
-    name: "Tumwegamire Adah",
-    pp_url: Ada,
-    role: "Member",
+    id: 1,
+    name: "Ruhangarinda Brian",
+    pp_url: Brian,
+    role: "IT Officer",
   },
 
   {
@@ -74,10 +73,10 @@ export const team = [
   },
 
   {
-    id: 9,
-    name: "Akandwanaho Osbert",
-    pp_url: Osbert,
-    role: "General Secretary",
+    id: 4,
+    name: "Kusasira Colleb",
+    pp_url: Colleb,
+    role: "Member",
   },
 
   {
@@ -114,32 +113,31 @@ export const Home = () => {
             </Text>
             <Box mb={3}>
               <Text style={{ textAlign: "justify" }}>
-                The Hope Action for Youth Foundation, located at P.O.BOX 420740,
-                Lower Circular Road, Red Cross Mbarara, Uganda, envisions an
-                equitable, inclusive, and sustainable society where all people
-                have equal opportunities. Our mission is to advocate for and
-                empower marginalized communities through comprehensive programs
-                in health, education, sustainable agriculture, environmental
-                justice, capacity building, and economic empowerment. Governed
-                by a dedicated board of governors and led by an Executive
-                Director, our organization welcomes members committed to values
-                of dignity, empowerment, environmental stewardship, integrity,
-                innovation, solidarity with marginalized groups, sustainability,
-                and participation. Our key initiatives include improving
-                healthcare and education access, agricultural training,
-                environmental conservation and justice, vocational skills
-                development, advocacy, fostering community leadership, and
-                entrepreneurship. Financial support is derived from donations,
-                fundraising, and sustainable business activities. Our
-                constitution provides the governance framework to fulfill our
-                goal of empowering marginalized communities across Uganda. Join
-                The Hope Action for Youth Foundation in our commitment to
-                creating a brighter and more equitable future for all. Together,
-                we can make a lasting impact and empower those in need.
+                The Hope Action for Youth Foundation is a community-based
+                organization located at P.O.BOX 420740 lower Circular Road, Red
+                Cross Mbarara, Uganda. Its vision is to create an equitable,
+                inclusive, and sustainable society where all people have equal
+                opportunities. The foundation's mission is to advocate for and
+                empower marginalized communities through programs focused on
+                health, education, sustainable agriculture, environmental
+                justice, capacity building, and economic empowerment. The
+                organization's core values are dignity, empowerment,
+                environmental stewardship and Integrity, and innovation,
+                solidarity with marginalized groups, sustainability, and
+                participation. The foundation is governed by a board of
+                governors and executive director. The Key activities of the
+                organization include; improving access to healthcare and
+                education, agricultural training, promoting environmental
+                conservation and justice, vocational skills development,
+                advocacy, fostering community leadership and entrepreneurship.
+                Finances come from donations, fundraising and business
+                activities. The constitution provides the governance framework
+                to fulfill the foundation's goal of empowering marginalized
+                communities across Uganda.
               </Text>
             </Box>
 
-            <Flex
+            {/* <Flex
               flexDir={{ base: "column", lg: "row" }}
               gap={5}
               align={"center"}
@@ -194,7 +192,7 @@ export const Home = () => {
                   Supportive Community
                 </Text>
               </Box>
-            </Flex>
+            </Flex> */}
           </Box>
         </Flex>
 

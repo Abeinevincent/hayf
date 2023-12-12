@@ -1,10 +1,6 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
 
-export const TeamMember = ({
-  member,
-}: {
-  member: { id: number; role: string; name: string; pp_url: string };
-}) => {
+export const TeamMember = ({ member }: { member: any }) => {
   return (
     <Flex width={"15%"} flexDir={"column"}>
       <Image

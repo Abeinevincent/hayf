@@ -61,7 +61,7 @@ export const MenuLinks = ({
         >
           Contact
         </MenuItem>
-        <MenuItem setIsOpen={setIsOpen} active={active} to="/donate">
+        {/* <MenuItem setIsOpen={setIsOpen} active={active} to="/donate">
           <Button
             overflow={"hidden"}
             rightIcon={<FaDonate style={{ transform: "translate(90deg)" }} />}
@@ -74,7 +74,7 @@ export const MenuLinks = ({
           >
             Donate
           </Button>
-        </MenuItem>
+        </MenuItem> */}
       </Stack>
     </Box>
   );

@@ -26,28 +26,26 @@ const AboutUs = () => {
         <Box>
           <Box mb={3}>
             <Text>
-              The Hope Action for Youth Foundation, located at P.O.BOX 420740,
-              Lower Circular Road, Red Cross Mbarara, Uganda, envisions an
-              equitable, inclusive, and sustainable society where all people
-              have equal opportunities. Our mission is to advocate for and
-              empower marginalized communities through comprehensive programs in
+              The Hope Action for Youth Foundation is a community-based
+              organization located at P.O.BOX 420740 lower Circular Road, Red
+              Cross Mbarara, Uganda. Its vision is to create an equitable,
+              inclusive, and sustainable society where all people have equal
+              opportunities. The foundation's mission is to advocate for and
+              empower marginalized communities through programs focused on
               health, education, sustainable agriculture, environmental justice,
-              capacity building, and economic empowerment. Governed by a
-              dedicated board of governors and led by an Executive Director, our
-              organization welcomes members committed to values of dignity,
-              empowerment, environmental stewardship, integrity, innovation,
-              solidarity with marginalized groups, sustainability, and
-              participation. Our key initiatives include improving healthcare
-              and education access, agricultural training, environmental
-              conservation and justice, vocational skills development, advocacy,
-              fostering community leadership, and entrepreneurship. Financial
-              support is derived from donations, fundraising, and sustainable
-              business activities. Our constitution provides the governance
-              framework to fulfill our goal of empowering marginalized
-              communities across Uganda. Join The Hope Action for Youth
-              Foundation in our commitment to creating a brighter and more
-              equitable future for all. Together, we can make a lasting impact
-              and empower those in need.
+              capacity building, and economic empowerment. The organization's
+              core values are dignity, empowerment, environmental stewardship
+              and Integrity, and innovation, solidarity with marginalized
+              groups, sustainability, and participation. The foundation is
+              governed by a board of governors and executive director. The Key
+              activities of the organization include; improving access to
+              healthcare and education, agricultural training, promoting
+              environmental conservation and justice, vocational skills
+              development, advocacy, fostering community leadership and
+              entrepreneurship. Finances come from donations, fundraising and
+              business activities. The constitution provides the governance
+              framework to fulfill the foundation's goal of empowering
+              marginalized communities across Uganda.
             </Text>
           </Box>
 
