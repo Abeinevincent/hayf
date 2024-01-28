@@ -112,7 +112,10 @@ export const Home = () => {
               Welcome to Hope Action for Youth Foundation
             </Text>
             <Box mb={3}>
-              <Text style={{ textAlign: "justify" }}>
+              <Text
+                style={{ textAlign: "justify" }}
+                fontSize={{ base: 10, md: 12, lg: 14 }}
+              >
                 The Hope Action for Youth Foundation is a community-based
                 organization located at P.O.BOX 420740 lower Circular Road, Red
                 Cross Mbarara, Uganda. Its vision is to create an equitable,

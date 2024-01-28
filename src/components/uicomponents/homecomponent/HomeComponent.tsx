@@ -20,7 +20,7 @@ const HomeComponent = ({ item }: { item: any }) => {
           {item.heading}
         </Text>
         <Box>
-          <Text>{item.paragraph}</Text>
+          <Text fontSize={{ base: 10, md: 12, lg: 14 }}>{item.paragraph}</Text>
         </Box>
       </Box>
       <Box flex={1}>
