@@ -64,7 +64,7 @@ const Announcement = () => {
         <Text textAlign={"center"} color={"white"} fontSize={13}>
           Contact us at{" "}
           <a href="tel:+256 772 620852" style={{ textDecoration: "underline" }}>
-            +256 772 620852
+            +256 779 327 818
           </a>
         </Text>
       </Box>

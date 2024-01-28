@@ -4,9 +4,6 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import Slider, { Settings } from "react-slick";
 import GPik1 from "../../../assets/images/hayf/gpk1.jpg";
 import GPik2 from "../../../assets/images/hayf/gpk2.jpg";
-import Colleb from "../../../assets/images/hayf/colleb.jpg";
-import Ada from "../../../assets/images/hayf/ada.jpg";
-import Edson from "../../../assets/images/hayf/edson.jpg";
 
 interface CustomSliderSettings extends Settings {
   style?: React.CSSProperties;
@@ -41,6 +38,7 @@ export default function Carousel() {
         charSet="UTF-8"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
       />
+
       <link
         rel="stylesheet"
         type="text/css"

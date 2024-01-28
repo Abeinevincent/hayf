@@ -83,7 +83,7 @@ export const team = [
     id: 9,
     name: "Bwembale Venjarest",
     pp_url: Venjarest,
-    role: "General Secretary",
+    role: "Member",
   },
 ];
 
@@ -221,6 +221,7 @@ export const Home = () => {
             flexWrap="wrap"
             w="100%"
             maxW="100%"
+            bg={PrimaryColor}
           >
             {tutorialsData.map((tutorial: any) => (
               <NewsAndUpdatesComp
@@ -245,6 +246,7 @@ export const Home = () => {
           justify={"center"}
           width={"100%"}
           gap={10}
+          bg="white"
         >
           {team.map((member) => (
             <TeamMember key={member.id} member={member} />

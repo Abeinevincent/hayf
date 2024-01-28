@@ -6,7 +6,6 @@ const HomeComponent = ({ item }: { item: any }) => {
     <Flex
       p={{ base: 5, md: 10, lg: 20 }}
       mx={{ base: 5, md: 30, lg: 60 }}
-      // bg={item.backgroundColor}
       alignItems={"center"}
       flexDir={{
         base: item.isRowReversed ? "column" : "column",

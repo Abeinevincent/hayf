@@ -1,4 +1,4 @@
-export const PrimaryColor = "darkblue";
+export const PrimaryColor = "purple";
 export const PrimaryBasicColor = "#f7fafc";
 // export const PrimaryColor = "#000080";
 

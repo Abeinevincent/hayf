@@ -21,7 +21,7 @@ const AboutUs = () => {
     >
       <Box w={{ base: "100%", md: "80%", lg: "60%" }}>
         <Text color={PrimaryColor} fontWeight={"bold"} fontSize={30} mb={5}>
-          Welcome to HAYF
+          Welcome to HAFYF
         </Text>
         <Box>
           <Box mb={3}>
@@ -48,63 +48,6 @@ const AboutUs = () => {
               marginalized communities across Uganda.
             </Text>
           </Box>
-
-          <Flex
-            flexDir={{ base: "column", lg: "row" }}
-            gap={5}
-            align={"center"}
-            justify="center"
-            mt={7}
-          >
-            <Box>
-              <Heading
-                textAlign={"center"}
-                color={PrimaryColor}
-                overflow="hidden"
-              >
-                50+
-              </Heading>
-              <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                Community Members
-              </Text>
-            </Box>
-            <Box>
-              <Heading
-                textAlign={"center"}
-                color={PrimaryColor}
-                overflow="hidden"
-              >
-                500+
-              </Heading>
-              <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                Employees
-              </Text>
-            </Box>
-            <Box>
-              <Heading
-                textAlign={"center"}
-                color={PrimaryColor}
-                overflow="hidden"
-              >
-                200+
-              </Heading>
-              <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                Youth Groups
-              </Text>
-            </Box>
-            <Box>
-              <Heading
-                textAlign={"center"}
-                color={PrimaryColor}
-                overflow="hidden"
-              >
-                1000+
-              </Heading>
-              <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                Supportive Community
-              </Text>
-            </Box>
-          </Flex>
         </Box>
       </Box>
 

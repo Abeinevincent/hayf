@@ -82,7 +82,7 @@ export default function contact() {
                     _hover={{ border: "2px solid #1C6FEB" }}
                     leftIcon={<MdPhone color="#1970F1" size="20px" />}
                   >
-                    +256 772 620852
+                    +256 779 327 818
                   </Button>
                   <Button
                     size="md"
@@ -94,7 +94,7 @@ export default function contact() {
                     _hover={{ border: "2px solid #1C6FEB" }}
                     leftIcon={<MdEmail color="#1970F1" size="20px" />}
                   >
-                    mkatusiimeh@gmail.com
+                    hafyfuganda@gmail.com
                   </Button>
                   <Button
                     size="md"
@@ -106,7 +106,7 @@ export default function contact() {
                     _hover={{ border: "2px solid #1C6FEB" }}
                     leftIcon={<MdLocationOn color="#1970F1" size="20px" />}
                   >
-                    Kabwohe, Uganda
+                    Red Cross Mbarara, Uganda
                   </Button>
                 </VStack>
               </Box>

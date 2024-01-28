@@ -1,13 +1,3 @@
-import FirstImage from "../assets/images/png1.png";
-import Image1 from "../assets/images/png1.png";
-import Image2 from "../assets/images/png2.png";
-import Image3 from "../assets/images/png4.png";
-import Gallery1 from "../assets/images/png1.png";
-import Gallery2 from "../assets/images/png2.png";
-import Gallery3 from "../assets/images/png3.png";
-import Gallery4 from "../assets/images/png4.png";
-import Gallery5 from "../assets/images/png5.png";
-import Gallery6 from "../assets/images/png6.png";
 import Brian from "../assets/images/hayf/brian.jpg";
 import Alice from "../assets/images/hayf/alice.jpg";
 import Ben from "../assets/images/hayf/ben.jpg";
@@ -18,11 +8,48 @@ import Edson from "../assets/images/hayf/edson.jpg";
 import Faith from "../assets/images/hayf/faith.jpg";
 import Gpk1 from "../assets/images/hayf/gpk1.jpg";
 import Gpk2 from "../assets/images/hayf/gpk2.jpg";
+import ITSkilling from "../assets/images/its.jpeg";
+import CommunityOutreach from "../assets/images/newimg3.jpeg";
+import Im1 from "../assets/images/newimg4.jpeg";
+import Im2 from "../assets/images/newimg4.jpeg";
+import Im3 from "../assets/images/newimg6.jpeg";
+import Im4 from "../assets/images/newimg7.jpeg";
+import Im5 from "../assets/images/newimg8.jpeg";
+import Im6 from "../assets/images/newimg2.jpeg";
+import Im7 from "../assets/images/newimg1.jpeg";
 
 export const galleryData = [
   {
     image: Ada,
   },
+  {
+    image: CommunityOutreach,
+  },
+  {
+    image: Im1,
+  },
+  {
+    image: Im2,
+  },
+  {
+    image: Im3,
+  },
+  {
+    image: Im4,
+  },
+  {
+    image: Im5,
+  },
+  {
+    image: Im7,
+  },
+  {
+    image: Im5,
+  },
+  {
+    image: CommunityOutreach,
+  },
+
   {
     image: Ben,
   },
@@ -202,42 +229,26 @@ export const tutorialsData = [
     datecreated: "12th March, 2023",
 
     description: `
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-    nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-    reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-    saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-    adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-    voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-    aliquam tempore impedit perferendis saepe id amet non totam!`,
+    
+At HAFYF, we're passionate about environmental stewardship, and our tree planting initiatives are a testament to that commitment. Through collaborative efforts and community involvement, we aim to contribute to a greener and healthier planet. Join us in planting the seeds of a sustainable future as we work together to enhance biodiversity, combat climate change, and create a lasting positive impact on our environment. Be a part of HAFYF's tree planting initiatives, and let's grow a better world together.`,
 
     imgSrc:
       "https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=996&t=st=1699366380~exp=1699366980~hmac=c9f30f4d37c4e1f9ef9c86a3753fa9d20279c094e49e0ffa5d024cc58ebe71f8",
   },
   {
-    title: "IT Skilling",
+    title: "Youth Outreach",
     datecreated: "25th March, 2023",
-    description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-    nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-    reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-    saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-    adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-    voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-    aliquam tempore impedit perferendis saepe id amet non totam!. 
+    description: `
+    Our youth outreach initiatives are dedicated to equipping young minds with essential skills for the future. Through targeted programs and workshops, we focus on fostering digital literacy, technological proficiency, and soft skills crucial for personal and professional growth. By engaging with the youth in an interactive and collaborative learning environment, we aim to empower them to navigate the challenges of the modern world and emerge as confident, skilled individuals ready to make a positive impact in their communities and beyond. Join us on this journey of skill development and empowerment for the leaders of tomorrow. 
     `,
-    imgSrc:
-      "https://img.freepik.com/free-photo/study-group-african-people_23-2149156391.jpg?w=996&t=st=1699366413~exp=1699367013~hmac=cedc3a338f648770340655118f58199bbd0b3993563cc2c5de39cd2531d363ce",
+    imgSrc: ITSkilling,
   },
   {
     title: "Empowering PWDs",
     datecreated: "12th May, 2023",
     description: `
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-    nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-    reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-    saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-    adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-    voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-    aliquam tempore impedit perferendis saepe id amet non totam!
+   
+Empowering Persons With Disabilities (PWDs) is a cornerstone of our organization's mission at HAFYF. We believe in creating an inclusive society where everyone, regardless of ability, has the opportunity to thrive. Through tailored programs, accessibility initiatives, and skill development, we work towards breaking down barriers and fostering independence among PWDs. Join us in championing equal opportunities, advocating for accessibility, and empowering individuals with disabilities to lead fulfilling lives. Together, let's build a more inclusive and supportive community where everyone's potential is recognized and celebrated.
       `,
     imgSrc:
       "https://img.freepik.com/free-photo/employee-with-disability-wearing-face-mask-working-business-project-entrepreneur-sitting-wheelchair-doing-financial-marketing-work-during-coronavirus-pandemic-man-job_482257-29778.jpg?w=996&t=st=1699366467~exp=1699367067~hmac=171204db7f2717d263a5445bd5595cf603e21bd7f637cdf9b9943417bb2cfcec",
@@ -246,44 +257,26 @@ export const tutorialsData = [
     title: "Craft Skilling",
     datecreated: "2nd June, 2023",
     description: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-      nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-      reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-      saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-      voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-      aliquam tempore impedit perferendis saepe id amet non totam!
+    Craft skilling is a focal point of our efforts at HAFYF, where we recognize the significance of honing traditional and contemporary craft skills. Through hands-on workshops and skill development programs, we aim to preserve and promote the artistry of various crafts. From traditional handicrafts to modern artisanal techniques, our initiatives provide individuals with the tools and knowledge to express their creativity and preserve cultural heritage. Join us in fostering a passion for craftsmanship, nurturing talents, and ensuring the continuity of unique artisan skills that contribute to cultural richness and economic sustainability. Together, let's celebrate the art of crafting and empower individuals to turn their creative pursuits into valuable skills.
     `,
     imgSrc:
       "https://img.freepik.com/premium-photo/young-serious-black-woman-casualwear-sewing-new-fashionable-attire_249974-12709.jpg?w=996",
   },
   {
-    title: "Youths Outreach",
+    title: "Community Outreach",
     datecreated: "12th January, 2023",
     description: `
-      At HAYF,  lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-      nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-      reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-      saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-      voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-      aliquam tempore impedit perferendis saepe id amet non totam!.
+      At HAFYF, our commitment to community outreach is rooted in the belief that positive change begins at the grassroots level. Through various initiatives, we actively engage with local communities to address their unique needs and challenges. From organizing educational workshops and health awareness campaigns to supporting local businesses and environmental initiatives, our community outreach programs aim to create a lasting impact. By fostering collaboration and building strong relationships, we strive to empower communities to thrive and enhance their overall well-being. Together, we can create a more resilient and connected society where everyone has the opportunity to prosper. Join us in making a meaningful difference in the lives of those we serve through our dedicated community outreach efforts.
       `,
     videoSrc: "https://dsqqu7oxq6o1v.cloudfront.net/preview-9650dW8x3YLoZ8.mp4",
-    imgSrc:
-      "https://img.freepik.com/free-photo/close-up-people-working-as-team_23-2148931095.jpg?w=826&t=st=1699366624~exp=1699367224~hmac=36bfe1a2b6f6ef2246eb6faab2904a3fbfae71638661853eb0de57e7c206093e",
+    imgSrc: CommunityOutreach,
   },
   {
     title: "Empowering Orphans",
     datecreated: "2nd June, 2023",
     description: `
-      At HAYF,  lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-      nemo cum quo velit laborum incidunt voluptatibus culpa accusantium
-      reprehenderit. Doloremque explicabo aliquam tempore impedit perferendis
-      saepe id amet non totam! Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Consequuntur nemo cum quo velit laborum incidunt
-      voluptatibus culpa accusantium reprehenderit. Doloremque explicabo
-      aliquam tempore impedit perferendis saepe id amet non totam!.
+      
+Empowering orphans is a heartfelt mission at HAFYF, where we are dedicated to providing support, guidance, and opportunities to children who have lost their parents. Through mentorship programs, educational initiatives, and community outreach, we strive to create a nurturing environment that fosters their personal growth and development. Our goal is to equip orphans with the skills, resources, and emotional support they need to overcome challenges and build a brighter future. Join us in making a difference by contributing to the empowerment of orphaned children, ensuring they have the tools and encouragement to lead fulfilling lives and reach their full potential. Together, let's provide a foundation of strength and resilience for these young individuals.
       `,
     imgSrc:
       "https://img.freepik.com/premium-photo/portrait-three-young-girls-from-kenya_564806-673.jpg?size=626&ext=jpg&ga=GA1.1.1136021855.1696006158&semt=ais",

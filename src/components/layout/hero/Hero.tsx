@@ -41,7 +41,7 @@ const Hero = ({ pagename }: HeroProps) => {
               textAlign: "center",
             }}
           >
-            HAYF
+            HAFYF
             <span style={{ marginLeft: 20 }}>/</span>
           </Text>
           <Heading

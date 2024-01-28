@@ -23,6 +23,7 @@ import {
   FaWhatsapp,
   FaLocationArrow,
   FaTiktok,
+  FaInstagram,
 } from "react-icons/fa";
 import AppStoreBadge from "./AppStoreBadge";
 
@@ -120,7 +121,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaEnvelope />
               </SocialButton>
               <Link href={"mailto:+256 772 620852"}>
-                <Box>contact@hayf.com</Box>
+                <Box>hafyfuganda@gmail.com</Box>
               </Link>
             </Flex>
 
@@ -129,7 +130,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaPhone />
               </SocialButton>
               <Link href={"tel:+256 772 620852"}>
-                <Box>+256 772 620852</Box>
+                <Box>+256 779 327 818</Box>
               </Link>
             </Flex>
 
@@ -138,7 +139,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaFax />
               </SocialButton>
               <Link href={"#"}>
-                <Box>+256 700 391 338</Box>
+                <Box>+256 779 327 818</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
@@ -146,7 +147,7 @@ export default function LargeWithAppLinksAndSocial() {
                 <FaWhatsapp />
               </SocialButton>
               <Link href={"#"}>
-                <Box> +256 770 597 348</Box>
+                <Box> +256 779 327 818</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
@@ -188,7 +189,7 @@ export default function LargeWithAppLinksAndSocial() {
           align={{ md: "center" }}
         >
           <Text textAlign={"center"}>
-            © {new Date().getFullYear()} HAYF. All rights reserved
+            © {new Date().getFullYear()} HAFYF. All rights reserved
           </Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton
@@ -206,8 +207,13 @@ export default function LargeWithAppLinksAndSocial() {
             >
               <FaFacebook />
             </SocialButton>
-            <SocialButton label={"Instagram"} href={"#"}>
-              <FaDiscord />
+            <SocialButton
+              label={"Instagram"}
+              href={
+                "https://www.instagram.com/hafyf_africa/?igsh=cmNxczhoeWp6NDBr"
+              }
+            >
+              <FaInstagram />
             </SocialButton>
             <SocialButton label={"Instagram"} href={"#"}>
               <FaLinkedin />

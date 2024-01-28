@@ -11,7 +11,7 @@ const NewsAndUpdates = () => {
         <Heading textAlign={"center"} my={4} overflow="hidden">
           News & Updates
         </Heading>
-        <Text textAlign={"center"}>HAYF News and Updates</Text>
+        <Text textAlign={"center"}>HAFYF News and Updates</Text>
         <Box
           margin={"auto"}
           p={{ base: 1, md: 8, lg: 20 }}

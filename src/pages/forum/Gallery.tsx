@@ -23,7 +23,7 @@ const Gallery = () => {
           <Heading textAlign={"center"} overflow="hidden" my={4}>
             Gallery
           </Heading>
-          <Text textAlign={"center"}>Take a look at HAYF</Text>
+          <Text textAlign={"center"}>Take a look at HAFYF</Text>
           <Box
             margin={"auto"}
             p={{ base: 1, md: 8, lg: 20 }}

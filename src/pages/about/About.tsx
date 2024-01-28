@@ -11,7 +11,7 @@ const About = () => {
         <Heading textAlign={"center"} my={4} overflow="hidden">
           About Us
         </Heading>
-        <Text textAlign={"center"}>About HAYF</Text>
+        <Text textAlign={"center"}>About HAFYF</Text>
       </Box>
       <Box>
         <AboutUs />
