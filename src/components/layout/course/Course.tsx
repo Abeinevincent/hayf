@@ -45,7 +45,7 @@ const Course = ({ tutorial }: any) => {
           src={tutorial.isFiltering ? tutorial.imgSrc : tutorial.image}
           w="100%"
           h="16rem"
-          objectFit={"cover"}
+          objectFit={"contain"}
         />
       </Box>
 

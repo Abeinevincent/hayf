@@ -1,7 +1,7 @@
 import { Box, Stack, Button } from "@chakra-ui/react";
 import { useState } from "react";
 import { FaDonate, FaPhone } from "react-icons/fa";
-import { PrimaryYellowColor } from "../../../theme/GlobalStyles";
+import { PrimaryColor, PrimaryYellowColor } from "../../../theme/GlobalStyles";
 import { MenuItem } from "./MenuItem";
 
 export const MenuLinks = ({
@@ -61,11 +61,11 @@ export const MenuLinks = ({
         >
           Contact
         </MenuItem>
-        {/* <MenuItem setIsOpen={setIsOpen} active={active} to="/donate">
+        <MenuItem setIsOpen={setIsOpen} active={active} to="/donate">
           <Button
             overflow={"hidden"}
             rightIcon={<FaDonate style={{ transform: "translate(90deg)" }} />}
-            colorScheme={PrimaryYellowColor}
+            colorScheme={"purple"}
             color="white"
             variant="solid"
             py={5}
@@ -74,7 +74,7 @@ export const MenuLinks = ({
           >
             Donate
           </Button>
-        </MenuItem> */}
+        </MenuItem>
       </Stack>
     </Box>
   );

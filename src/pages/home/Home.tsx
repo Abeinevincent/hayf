@@ -89,14 +89,14 @@ export const team = [
 
 export const Home = () => {
   return (
-    <Flex bg="#f8f8f8" flexDirection={"column"}>
+    <Flex bg="#fff" flexDirection={"column"}>
       <Box>
         <Carousel />
       </Box>
       <Box>
         <Flex
           p={{ base: 5, md: 10, lg: 20 }}
-          bg="white"
+          bg=""
           alignItems={"center"}
           justifyContent="center"
           flexDir={"column"}
@@ -139,63 +139,6 @@ export const Home = () => {
                 communities across Uganda.
               </Text>
             </Box>
-
-            {/* <Flex
-              flexDir={{ base: "column", lg: "row" }}
-              gap={5}
-              align={"center"}
-              justify="center"
-              mt={7}
-            >
-              <Box>
-                <Heading
-                  textAlign={"center"}
-                  color={PrimaryColor}
-                  overflow="hidden"
-                >
-                  50+
-                </Heading>
-                <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Community Members
-                </Text>
-              </Box>
-              <Box>
-                <Heading
-                  textAlign={"center"}
-                  color={PrimaryColor}
-                  overflow="hidden"
-                >
-                  500+
-                </Heading>
-                <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Employees
-                </Text>
-              </Box>
-              <Box>
-                <Heading
-                  textAlign={"center"}
-                  color={PrimaryColor}
-                  overflow="hidden"
-                >
-                  200+
-                </Heading>
-                <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Youth Groups
-                </Text>
-              </Box>
-              <Box>
-                <Heading
-                  textAlign={"center"}
-                  color={PrimaryColor}
-                  overflow="hidden"
-                >
-                  1000+
-                </Heading>
-                <Text textAlign={"center"} fontWeight={400} color={"gray"}>
-                  Supportive Community
-                </Text>
-              </Box>
-            </Flex> */}
           </Box>
         </Flex>
 

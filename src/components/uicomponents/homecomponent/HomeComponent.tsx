@@ -1,9 +1,12 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { PrimaryColor } from "../../../theme/GlobalStyles";
+import { MdHealthAndSafety } from "react-icons/md";
+import ReusableIconComponent from "../icons/ReactIcon";
 
 const HomeComponent = ({ item }: { item: any }) => {
   return (
     <Flex
+      key={item?.key}
       p={{ base: 5, md: 10, lg: 20 }}
       mx={{ base: 5, md: 30, lg: 60 }}
       alignItems={"center"}
@@ -31,6 +34,10 @@ const HomeComponent = ({ item }: { item: any }) => {
             src={item.image}
             alt=""
           />
+          {/* <i
+            className={item?.className}
+            style={{ fontSize: 200, color: "purple" }}
+          ></i> */}
         </Box>
       </Box>
     </Flex>

@@ -17,6 +17,7 @@ import Im4 from "../assets/images/newimg7.jpeg";
 import Im5 from "../assets/images/newimg8.jpeg";
 import Im6 from "../assets/images/newimg2.jpeg";
 import Im7 from "../assets/images/newimg1.jpeg";
+import { MdHealthAndSafety } from "react-icons/md";
 
 export const galleryData = [
   {
@@ -98,9 +99,11 @@ services, acting as a vital link between communities and healthcare resources.
 partnerships, ensuring sustainable healthcare access and continuous support.
     `,
     image:
-      "https://img.freepik.com/free-photo/africa-humanitarian-aid-doctor-taking-care-patient_23-2149117842.jpg?w=996&t=st=1699365042~exp=1699365642~hmac=15010b88324aed988e9f3488f99b85c2174d3e8990af987f7c8c586e1b3479ea",
+      "https://img.freepik.com/free-vector/flat-national-doctor-s-day-illustration_23-2149437381.jpg?size=626&ext=jpg&ga=GA1.2.568651935.1703146611&semt=ais",
+    icon: `<MdHealthAndSafety />`,
     backgroundColor: "#f7fafc",
     isRowReversed: false,
+    className: "fas fa-heartbeat",
   },
   {
     subHeading: "Education and Skills Training",
@@ -117,9 +120,10 @@ partnerships, ensuring sustainable healthcare access and continuous support.
     continuous improvement, tailoring our educational programs to meet the evolving needs of our
     beneficiaries.`,
     image:
-      "https://img.freepik.com/premium-photo/experienced-longterm-employee-large-corporation-stands-office-by-white-board-draws-chart_616370-3510.jpg?w=996",
+      "https://img.freepik.com/premium-vector/image-art-school-education-creative-illustration-concept_999616-1192.jpg?w=900",
     backgroundColor: "white",
     isRowReversed: true,
+    className: "fas fa-heartbeat",
   },
   {
     subHeading: "Sustainable Livelihoods",
@@ -135,9 +139,10 @@ partnerships, ensuring sustainable healthcare access and continuous support.
       Regularly evaluate the success and profitability of livelihood projects, making data-driven
     decisions to improve sustainability and self-reliance in our communities.`,
     image:
-      "https://img.freepik.com/free-photo/group-happy-african-volunteers-planting-tree-park-africa-volunteering-charity-people-ecology-concept_627829-320.jpg?w=996&t=st=1699365346~exp=1699365946~hmac=3c9fa65ecdb8b8a0ac57bb837357df1ebed85f3595318fea6705b78fb5df029c",
+      "https://img.freepik.com/free-vector/illustration-people-being-sustainable_53876-28550.jpg?w=826&t=st=1708264636~exp=1708265236~hmac=4b1c36c4b2487c86a4bcda7dff7364cd2035a819366f6fb88d6176b4c14b47e8",
     backgroundColor: "#f7fafc",
     isRowReversed: false,
+    className: "fas fa-heartbeat",
   },
 
   {
@@ -157,9 +162,10 @@ actions to preserve our natural heritage.
 
     `,
     image:
-      "https://img.freepik.com/premium-photo/group-happy-african-volunteers_151355-6215.jpg?w=996",
+      "https://img.freepik.com/free-vector/save-planet-concept_23-2148515703.jpg?w=740&t=st=1708264682~exp=1708265282~hmac=09c70504dac7ff26540bd7fabb67e161c32c08d34e59a86f547a4115ffb42e5d",
     backgroundColor: "white",
     isRowReversed: true,
+    className: "fas fa-heartbeat",
   },
 
   {
@@ -176,9 +182,10 @@ actions to preserve our natural heritage.
       Regularly assess staff and volunteer performance and provide constructive feedback,
     fostering a culture of continuous improvement within our organization.`,
     image:
-      "https://img.freepik.com/free-photo/ideas-innovation-creativity-knowledge-inspiration-vision-concept_53876-21166.jpg?w=740&t=st=1699365466~exp=1699366066~hmac=f8c6dd2af453acc3723a5d054fb27141ac8d5d0a43954839d31b2b94f24bb5e3",
+      "https://img.freepik.com/premium-vector/business-concept-team-metaphor-people-connecting-puzzle-elements-illustration-flat-design-style-symbol-teamwork-cooperation-partnership-flat-style-design-isolated-white-background_15602-572.jpg?w=740",
     backgroundColor: "#f7fafc",
     isRowReversed: false,
+    className: "fas fa-heartbeat",
   },
 
   {
@@ -197,9 +204,10 @@ charge of their lives and strengthen their communities.
 activities, tracking progress toward more inclusive and equitable societies
     `,
     image:
-      "https://img.freepik.com/free-photo/medium-shot-friends-outdoors_23-2149033789.jpg?w=740&t=st=1699365522~exp=1699366122~hmac=f0e6be8729fac20c96bb120028acbc5237b351574e99e2fed9ff84b9fcbf357f",
+      "https://img.freepik.com/free-vector/youth-empowerment-abstract-concept-vector-illustration-children-young-people-take-charge-take-action-improve-life-quality-democracy-building-youth-activism-involvement-abstract-metaphor_335657-4186.jpg?w=740&t=st=1708264843~exp=1708265443~hmac=a6fc2f9389be9ed8c28aa69f419ff359814cd6ac7ad67414f468f84c25126d4b",
     backgroundColor: "white",
     isRowReversed: true,
+    className: "fas fa-university",
   },
 
   {
@@ -217,9 +225,10 @@ activities, tracking progress toward more inclusive and equitable societies
     helping us tailor our interventions to address the unique needs and challenges of the communities
     we serve.`,
     image:
-      "https://img.freepik.com/free-photo/magnifying-glass-with-stack-books-table_1252-720.jpg?w=996&t=st=1699365563~exp=1699366163~hmac=9ae2ddfd4b1c7c378830a90df7aff1130c3e392ba741ba9c11bfdb30a4284c8d",
+      "https://img.freepik.com/premium-vector/education-college-things-with-isometric-style_143055-349.jpg?w=826",
     backgroundColor: "#f7fafc",
     isRowReversed: false,
+    className: "fas fa-heartbeat",
   },
 ];
 
@@ -242,6 +251,7 @@ At HAFYF, we're passionate about environmental stewardship, and our tree plantin
     Our youth outreach initiatives are dedicated to equipping young minds with essential skills for the future. Through targeted programs and workshops, we focus on fostering digital literacy, technological proficiency, and soft skills crucial for personal and professional growth. By engaging with the youth in an interactive and collaborative learning environment, we aim to empower them to navigate the challenges of the modern world and emerge as confident, skilled individuals ready to make a positive impact in their communities and beyond. Join us on this journey of skill development and empowerment for the leaders of tomorrow. 
     `,
     imgSrc: ITSkilling,
+    className: "fas fa-heartbeat",
   },
   {
     title: "Empowering PWDs",

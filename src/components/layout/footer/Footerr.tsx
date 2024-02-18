@@ -103,14 +103,8 @@ export default function LargeWithAppLinksAndSocial() {
             <Link href={"#"}>TikTok</Link>
             <Link href={"#"}>Blog</Link>
             <Link href={"#"}>About Us</Link>
-            {/* <Link href={"#"}>YouTube</Link> */}
-            {/* <Link href={"#"}>Login</Link> */}
             <Link href={"#"}>Donate</Link>
-            {/* <Link href={"#"}>Careers</Link> */}
             <Link href={"#"}>Contact Us</Link>
-            {/* <Link href={"#"}>Privacy Policy</Link>
-            <Link href={"#"}>Cookies Policy</Link>
-            <Link href={"#"}>Terms of Service</Link> */}
             <Link href={"#"}>FAQ</Link>
           </Stack>
 
@@ -129,7 +123,7 @@ export default function LargeWithAppLinksAndSocial() {
               <SocialButton label={"Twitter"} href={"#"}>
                 <FaPhone />
               </SocialButton>
-              <Link href={"tel:+256 772 620852"}>
+              <Link href={"tel:+256 779 327 818"}>
                 <Box>+256 779 327 818</Box>
               </Link>
             </Flex>
