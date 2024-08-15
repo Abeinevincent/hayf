@@ -121,16 +121,17 @@ export default function contact() {
                   variant="ghost"
                   size="lg"
                   isRound={true}
-                  onClick={() =>
-                    (window.location.href =
-                      "https://www.facebook.com/Ngomanungi")
-                  }
+                  // onClick={() => (window.location.href = "#")}
                   bg="orange"
                   _hover={{ bg: "#0D74FF" }}
                   icon={<MdFacebook size="28px" />}
                 />
                 <IconButton
                   aria-label="linkedin"
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.linkedin.com/company/hope-action-for-youth-foundation/")
+                  }
                   variant="ghost"
                   size="lg"
                   isRound={true}

@@ -186,19 +186,13 @@ export default function LargeWithAppLinksAndSocial() {
             © {new Date().getFullYear()} HAFYF. All rights reserved
           </Text>
           <Stack direction={"row"} spacing={6}>
-            <SocialButton
-              label={"Twitter"}
-              href={"https://twitter.com/rwebiitangoma?lang=en"}
-            >
+            <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />
             </SocialButton>
             <SocialButton label={"YouTube"} href={"#"}>
               <FaYoutube />
             </SocialButton>
-            <SocialButton
-              label={"Instagram"}
-              href={"https://www.facebook.com/Ngomanungi/"}
-            >
+            <SocialButton label={"Instagram"} href={"#"}>
               <FaFacebook />
             </SocialButton>
             <SocialButton
@@ -209,7 +203,12 @@ export default function LargeWithAppLinksAndSocial() {
             >
               <FaInstagram />
             </SocialButton>
-            <SocialButton label={"Instagram"} href={"#"}>
+            <SocialButton
+              label={"LinkeIn"}
+              href={
+                "https://www.linkedin.com/company/hope-action-for-youth-foundation/"
+              }
+            >
               <FaLinkedin />
             </SocialButton>
             <SocialButton label={"Instagram"} href={"#"}>
