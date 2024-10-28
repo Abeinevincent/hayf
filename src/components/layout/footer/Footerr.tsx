@@ -189,7 +189,7 @@ export default function LargeWithAppLinksAndSocial() {
             <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"YouTube"} href={"#"}>
+            <SocialButton label={"YouTube"} href={"https://www.youtube.com/channel/UC3PbDbx41CB6WNcW8nElZXg"}>
               <FaYoutube />
             </SocialButton>
             <SocialButton label={"Instagram"} href={"#"}>
