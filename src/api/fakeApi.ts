@@ -27,7 +27,7 @@ import TreePlant from "../assets/images/newimages/sliderimg4.jpeg";
 import PWDs from "../assets/images/newimages/PWDs.jpg";
 import Crafts from "../assets/images/newimages/craft.jpg";
 import Success from "../assets/images/newimages/WhatsApp Image 2024-11-23 at 11.19.40 (1).jpeg";
-import Slider6 from "../assets/images/newimages/Slider6.jpeg";
+// import Slider6 from "../assets/images/newimages/Slider6.jpeg";
 import Dust from "../assets/images/newimages/WhatsApp Image 2024-11-23 at 11.19.28.jpeg";
 
 export const galleryData = [
@@ -39,9 +39,9 @@ export const galleryData = [
     image: Dust,
   },
 
-  {
-    image: Slider6,
-  },
+  // {
+  //   image: Slider6,
+  // },
 
   {
     image: Ada,
