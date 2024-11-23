@@ -129,19 +129,37 @@ export default function LargeWithAppLinksAndSocial() {
             </Flex>
 
             <Flex dir="row" alignItems="center" gap={3}>
-              <SocialButton label={"Twitter"} href={"#"}>
-                <FaFax />
+              <SocialButton
+                label={"Twitter"}
+                href={
+                  "https://www.youtube.com/channel/UC3PbDbx41CB6WNcW8nElZXg"
+                }
+              >
+                <FaYoutube />
               </SocialButton>
-              <Link href={"#"}>
-                <Box>+256 779 327 818</Box>
+              <Link
+                href={
+                  "https://www.youtube.com/channel/UC3PbDbx41CB6WNcW8nElZXg"
+                }
+              >
+                <Box>Youtube</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
-              <SocialButton label={"Twitter"} href={"#"}>
-                <FaWhatsapp />
+              <SocialButton
+                label={"Twitter"}
+                href={
+                  "https://www.linkedin.com/company/hope-action-for-youth-foundation"
+                }
+              >
+                <FaLinkedin />
               </SocialButton>
-              <Link href={"#"}>
-                <Box> +256 779 327 818</Box>
+              <Link
+                href={
+                  "https://www.linkedin.com/company/hope-action-for-youth-foundation"
+                }
+              >
+                <Box> LinkedIn</Box>
               </Link>
             </Flex>
             <Flex dir="row" alignItems="center" gap={3}>
@@ -189,7 +207,10 @@ export default function LargeWithAppLinksAndSocial() {
             <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"YouTube"} href={"https://www.youtube.com/channel/UC3PbDbx41CB6WNcW8nElZXg"}>
+            <SocialButton
+              label={"YouTube"}
+              href={"https://www.youtube.com/channel/UC3PbDbx41CB6WNcW8nElZXg"}
+            >
               <FaYoutube />
             </SocialButton>
             <SocialButton label={"Instagram"} href={"#"}>

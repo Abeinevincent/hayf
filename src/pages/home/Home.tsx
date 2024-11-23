@@ -21,34 +21,34 @@ export const team = [
     id: 6,
     name: "Tumwegamire Adah",
     pp_url: Ada,
-    role: "Member",
+    role: "Monitoring & Evaluation Office",
   },
   {
     id: 2,
     name: "Nakigudde Alice",
     pp_url: Alice,
-    role: "Member",
+    role: "Programs Officer in charge of Health",
   },
 
   {
     id: 3,
     name: "Tumuhaire Faith",
     pp_url: Faith,
-    role: "Finance Manager",
+    role: "Finance & Operational Manager",
   },
 
   {
     id: 9,
     name: "Akandwanaho Osbert",
     pp_url: Osbert,
-    role: "General Secretary",
+    role: "Head of Programs",
   },
 
   {
     id: 5,
     name: "Byamugisha Edson",
     pp_url: Edson,
-    role: "Chair Person",
+    role: "Executive Director",
   },
 
   {
@@ -60,30 +60,30 @@ export const team = [
 
   {
     id: 7,
-    name: " Atuheire Ben",
+    name: "Atuheire Ben",
     pp_url: Ben,
-    role: "Member",
+    role: "Programs Officer in charge of Agriculture",
   },
 
   {
     id: 8,
     name: "Ampaire Celia",
     pp_url: Ceila,
-    role: "Member",
+    role: "Programs Officer in charge of Environment",
   },
 
   {
     id: 4,
     name: "Kusasira Colleb",
     pp_url: Colleb,
-    role: "Member",
+    role: "Programs Officer in charge of Agriculture",
   },
 
   {
     id: 9,
     name: "Bwembale Venjarest",
     pp_url: Venjarest,
-    role: "Member",
+    role: "Programs Officer in charge of Research",
   },
 ];
 

@@ -3,7 +3,7 @@ import SmallCentered from "./Footerr";
 
 export const Footer = () => {
   return (
-    <Box>
+    <Box style={{ backgroundColor: "purple" }}>
       <SmallCentered />
     </Box>
   );

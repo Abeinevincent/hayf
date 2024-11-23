@@ -10,6 +10,7 @@ import Ceila from "../../assets/images/hayf/ceila.jpg";
 import Colleb from "../../assets/images/hayf/colleb.jpg";
 import Edson from "../../assets/images/hayf/edson.jpg";
 import Faith from "../../assets/images/hayf/faith.jpg";
+import Success from "../../assets/images/newimages/WhatsApp Image 2024-11-23 at 11.19.40 (1).jpeg";
 
 const Gallery = () => {
   const pagename = "Gallery";

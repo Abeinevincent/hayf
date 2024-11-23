@@ -4,6 +4,11 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import Slider, { Settings } from "react-slick";
 import GPik1 from "../../../assets/images/hayf/gpk1.jpg";
 import GPik2 from "../../../assets/images/hayf/gpk2.jpg";
+import ImgSLider1 from "../../../assets/images/newimages/sliderimg1.jpeg";
+import ImgSLider2 from "../../../assets/images/newimages/sliderimg2.jpeg";
+import ImgSLider3 from "../../../assets/images/newimages/sliderimg3.jpeg";
+import ImgSLider5 from "../../../assets/images/newimages/slider7.jpeg";
+import ImgSLider4 from "../../../assets/images/newimages/slider5.jpeg";
 
 interface CustomSliderSettings extends Settings {
   style?: React.CSSProperties;
@@ -28,7 +33,15 @@ export default function Carousel() {
   const [slider, setSlider] = React.useState<Slider | null>(null);
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "10px" });
-  const cards = [GPik1, GPik2];
+  const cards = [
+    GPik1,
+    GPik2,
+    ImgSLider1,
+    ImgSLider2,
+    ImgSLider3,
+    ImgSLider4,
+    // ImgSLider5,
+  ];
 
   return (
     <Box position="relative" height="600px" width="full" overflow="hidden">

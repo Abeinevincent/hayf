@@ -29,15 +29,12 @@ const HomeComponent = ({ item }: { item: any }) => {
       <Box flex={1}>
         <Box display="flex" alignItems="center" justifyContent="center">
           <Image
-            w={{ base: "100%", lg: "75%" }}
-            h={{ base: "100%", lg: "50%" }}
+            w={{ base: "100%", lg: "60%" }}
+            h={{ base: "100%", lg: "60%" }}
+            // objectFit={"cover"}
             src={item.image}
             alt=""
           />
-          {/* <i
-            className={item?.className}
-            style={{ fontSize: 200, color: "purple" }}
-          ></i> */}
         </Box>
       </Box>
     </Flex>
